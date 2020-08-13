@@ -26,12 +26,10 @@ namespace Task3
             int[] get_indices_from_one(int[] arr)
             {
                 int[] indexes = new int[arr.Length];
-                int j = 0;
 
                 for (int i = 0; i < arr.Length; i++)
                 {
-                    indexes[j] = i;
-                    j++;
+                    indexes[i] = i;
                 }
 
                 return indexes;
@@ -54,17 +52,15 @@ namespace Task3
 
             int get_first_three_index(int[] arr)
             {
-                int my_index = 0;
                 for (int i = 0; i < arr.Length; i++)
                 {
                     if (arr[i] == 3)
                     {
-                        my_index = i;
-                        break;
+                        return i;
                     }
                 }
 
-                return my_index;
+                return -1;
             }
 
             int[] get_every_second_element(int[][] Arr, int m)
@@ -87,7 +83,7 @@ namespace Task3
 
             int get_last_three_index(int[] arr)
             {
-                int my_index = 0;
+                int my_index = -1;
                 for (int i = 0; i < arr.Length; i++)
                 {
                     if (arr[i] == 3)
@@ -171,20 +167,8 @@ namespace Task3
                 my_arr[i] = num;
             }
 
-            bool isThree = false;
-            for (int i = 0; i < my_arr.Length; i++)
-            {
-                if (my_arr[i] == 3)
-                {
-                    isThree = true;
-                    break;
-                }
-            }
-
-            if (!isThree)
-                Console.WriteLine("В списке нет троек");
-            else
-                Console.WriteLine('\n' + "Индекс первой в списке тройки: " + get_first_three_index(my_arr));
+            
+            Console.WriteLine('\n' + "Индекс первой в списке тройки: " + get_first_three_index(my_arr));
             Console.WriteLine('\n' + "Индекс последней в списке тройки: " + get_last_three_index(my_arr));
 
             Console.ReadKey();

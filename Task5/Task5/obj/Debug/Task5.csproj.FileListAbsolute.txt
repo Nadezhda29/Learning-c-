@@ -1,0 +1,7 @@
+C:\Users\Nadezhda\Desktop\C#\Learning\Task5\Task5\bin\Debug\Task5.exe.config
+C:\Users\Nadezhda\Desktop\C#\Learning\Task5\Task5\bin\Debug\Task5.exe
+C:\Users\Nadezhda\Desktop\C#\Learning\Task5\Task5\bin\Debug\Task5.pdb
+C:\Users\Nadezhda\Desktop\C#\Learning\Task5\Task5\obj\Debug\Task5.csprojAssemblyReference.cache
+C:\Users\Nadezhda\Desktop\C#\Learning\Task5\Task5\obj\Debug\Task5.csproj.CoreCompileInputs.cache
+C:\Users\Nadezhda\Desktop\C#\Learning\Task5\Task5\obj\Debug\Task5.exe
+C:\Users\Nadezhda\Desktop\C#\Learning\Task5\Task5\obj\Debug\Task5.pdb

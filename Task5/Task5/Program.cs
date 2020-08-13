@@ -18,33 +18,39 @@ namespace Task5
                 int j = 0;
                 int k = 0;
 
-                while (i < join_arr.Length)
+                while ((i < arr1.Length) && (j < arr2.Length))
                 {
-                    if (arr1[j] > arr2[k])
+                    if (arr1[i] < arr2[j])
                     {
-                        join_arr[i] = arr2[k];
-                        k++;
+                        join_arr[k] = arr1[i];
                         i++;
-
-                        if (k >= arr2.Length)
-                        {
-                            join_arr[i] = arr1[j];
-                            j++;
-                            i++;
-                        }
+                        k++;
                     }
                     else
                     {
-                        join_arr[i] = arr1[j];
+                        join_arr[k] = arr2[j];
                         j++;
-                        i++;
+                        k++;
+                    }
+                }
 
-                        if (j >= arr1.Length)
-                        {
-                            join_arr[i] = arr2[j];
-                            k++;
-                            i++;
-                        }
+                if (i == arr1.Length)
+                {
+                    while (j < arr2.Length)
+                    {
+                        join_arr[k] = arr2[j];
+                        j++;
+                        k++;
+                    }
+
+                }
+                else
+                {
+                    while (i < arr1.Length)
+                    {
+                       join_arr[k] = arr1[i];
+                       i++;
+                       k++;
                     }
                 }
 

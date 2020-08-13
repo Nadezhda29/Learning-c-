@@ -12,26 +12,17 @@ namespace Task1
         {
             int get_middle_value(int num1, int num2, int num3)
             {
-                if ((num1 > num2) && (num1 > num3))
+                if ((num1 < num2) && (num1 > num3))
                 {
-                    if (num2 > num3)
-                        return num2;
-                    else
-                        return num3;
+                    return num1;
                 }
-                else if ((num2 > num1) && (num2 > num3))
+                else if ((num2 < num3) && (num2 > num1))
                 {
-                    if (num1 > num3)
-                        return num1;
-                    else
-                        return num3;
+                    return num2;
                 }
                 else
                 {
-                    if (num2 > num1)
-                        return num2;
-                    else
-                        return num1;
+                    return num3;
                 }
             }
 
@@ -40,14 +31,7 @@ namespace Task1
             int my_num2 = Convert.ToInt32(Console.ReadLine());
             int my_num3 = Convert.ToInt32(Console.ReadLine());
 
-            if ((my_num1 == my_num2) || (my_num2 == my_num3) || (my_num1 == my_num3))
-            {
-                Console.WriteLine("Пожалуйста, введите три разных числа");
-            }
-            else
-            {
-                Console.WriteLine("Среднее значение чисел: " + get_middle_value(my_num1, my_num2, my_num3));
-            }
+            Console.WriteLine("Среднее значение чисел: " + get_middle_value(my_num1, my_num2, my_num3));
 
             Console.ReadKey();
         }
