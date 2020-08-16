@@ -1,0 +1,7 @@
+C:\Users\Nadezhda\Desktop\C#\Learning\Task6\Task6\bin\Debug\Task6.exe.config
+C:\Users\Nadezhda\Desktop\C#\Learning\Task6\Task6\bin\Debug\Task6.exe
+C:\Users\Nadezhda\Desktop\C#\Learning\Task6\Task6\bin\Debug\Task6.pdb
+C:\Users\Nadezhda\Desktop\C#\Learning\Task6\Task6\obj\Debug\Task6.csprojAssemblyReference.cache
+C:\Users\Nadezhda\Desktop\C#\Learning\Task6\Task6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
+C:\Users\Nadezhda\Desktop\C#\Learning\Task6\Task6\obj\Debug\Task6.exe
+C:\Users\Nadezhda\Desktop\C#\Learning\Task6\Task6\obj\Debug\Task6.pdb
