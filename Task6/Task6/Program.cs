@@ -51,8 +51,8 @@ namespace Task6
             }
 
             Console.WriteLine("Введите значение, которое нужно найти в массиве: ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(find_value(ref arr_, number));
+            int my_value = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(find_value(ref arr_, my_value));
 
             Console.ReadKey();
         }

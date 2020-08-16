@@ -53,7 +53,7 @@ namespace Task7
                 arr2[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.WriteLine("Минимум: " + find_min(ref arr2));
+            Console.WriteLine("Минимум = " + find_min(ref arr2));
 
             Console.ReadKey();
         }
